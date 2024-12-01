@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/screens/report_screen.dart';
+import '../screens/report_screen.dart';
 import '../services/firestore_service.dart';
 import '../models/time_entry.dart';
 import 'add_entry_screen.dart';
