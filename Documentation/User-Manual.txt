@@ -1,0 +1,6 @@
+How to Operate the Task Manager:
+
+- There are three buttons, a purple +, a green search, and a blue piechart
+    - The purple + button allows you to add an entry into your task manager, just fill out the fields and click save
+    - The green search button allows you to search for tasks by date, name, and tag
+    - The blue pie chart gives reports of your tasks. It can give tasks that were between two dates and also fetch the most time consuming tasks
