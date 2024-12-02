@@ -1,0 +1,5 @@
+User Stories:
+
+- As a user I want to be able to see my tasks on a homepage
+- As a user I want to be able to add a task
+- as a user I want to be able to search for a task using date, name, or tag
