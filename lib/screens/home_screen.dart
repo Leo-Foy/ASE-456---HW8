@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const AddEntryScreen()),
-              ).then((_) => _fetchEntries()); // Refresh list after adding entry
+              ).then((_) => _fetchEntries()); 
             },
             child: const Icon(Icons.add),
           ),

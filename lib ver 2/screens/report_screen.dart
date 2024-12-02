@@ -27,7 +27,7 @@ class _ReportScreenState extends State<ReportScreen> {
       String startDate = _startDateController.text;
       String endDate = _endDateController.text;
 
-      // Fetch report between two dates
+      
       List<Map<String, dynamic>> data = await FirestoreService().fetchReport(startDate, endDate);
 
       setState(() {
@@ -46,7 +46,7 @@ class _ReportScreenState extends State<ReportScreen> {
     try {
       setState(() => _isLoading = true);
 
-      // Fetch most time-consuming tasks
+      
       List<Map<String, dynamic>> data = await FirestoreService().fetchMostTimeConsumingTasks();
 
       setState(() {

@@ -13,7 +13,7 @@ class TimeEntry {
     required this.tag,
   });
 
-  // Convert TimeEntry to a Map for Firestore
+  
   Map<String, dynamic> toMap() {
     return {
       'date': date,
@@ -24,7 +24,7 @@ class TimeEntry {
     };
   }
 
-  // Create TimeEntry from Firestore document
+ 
   factory TimeEntry.fromMap(Map<String, dynamic> map) {
     return TimeEntry(
       date: map['date'] ?? '',
